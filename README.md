@@ -2,6 +2,7 @@
 
 This is a PHP & MySQL-based **Employee Management System** that performs full **CRUD operations** on employees, departments, and projects. It showcases many-to-one and many-to-many relationships through intermediate tables.
 
+🔗 **Live Website**: [http://employee.infinityfreeapp.com](http://employee.infinityfreeapp.com)
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript

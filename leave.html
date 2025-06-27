@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+    
+    <section class="attendance-section">
+        <div class="container">
+            <h2 class="sub-title">MARK LEAVE</h2>
+            <form action="leave.php" method="post">
+                <label for="employee-id">Employee ID</label>
+                <input type="text" id="employee-id" name="employee_id" placeholder="Enter Employee ID" required>
+                <label for="employee-id">start Date</label>
+                <input type="date" name="startdate" class="input" id="dob" required>
+                <label for="employee-id">End Date</label>
+                <input type="date" name="enddate" class="input" id="dob" required>
+                <label for="leave-type">Leave Type</label>
+                <select id="leave-type" name="leave_type" required>
+                        <option value="" disabled selected>Select Leave Type</option>
+                        <option value="Casual Leave">Casual Leave</option>
+                        <option value="Sick Leave">Sick Leave</option>
+                        <option value="Paid Time Off">Paid Time Off</option>
+                        <option value="Earned Leave">Earned Leave</option>
+                        <option value="Maternity Leave">Maternity Leave</option>
+                        <option value="Paternity Leave">Paternity Leave</option>
+                        <option value="Bereavement Leave">Bereavement Leave</option>
+                        <option value="Compensatory Off">Compensatory Off</option>
+                        <option value="Marriage Leave">Marriage Leave</option>
+                        <option value="Sabbatical Leave">Sabbatical Leave</option>
+                        <option value="Unpaid Leave">Unpaid Leave</option>
+                </select>
+
+
+
+
+                <button type="submit" name="submit" class="btn ">Submit Attendance</button>
+            </form>
+        </div>
+    </section>
+
+    </body>
+
+</html>

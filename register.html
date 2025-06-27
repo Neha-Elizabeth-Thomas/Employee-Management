@@ -1,0 +1,146 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form In HTML and CSS</title>
+	<link rel="stylesheet" type="text/css" href="regstyle.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+
+</head>
+
+<body>
+	<div class="banner-img"></div>
+<div class="wrapper">
+	<div class="r_form_wrap">
+		
+		<div class="title">
+			<p>Registration Form</p>
+		</div>
+
+		<!-- Modify the form tag to point to register.php -->
+		<div class="r_form">
+			<form  action="register.php" method="post">
+				<div class="input_wrap">
+					<label for="yourname">Your Name</label>
+					<div class="input_item">
+						<span class="icon">
+							<ion-icon name="person-sharp"></ion-icon>
+						</span>
+						<input type="text" name="yourname" class="input" id="yourname" required>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="emailaddress">Email Address</label>
+					<div class="input_item">
+						<span class="icon">
+							<ion-icon name="mail-sharp"></ion-icon>
+						</span>
+						<input type="email" name="emailaddress" class="input" id="emailaddress" required>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="password">Password</label>
+					<div class="input_item">
+						<span class="icon">
+							<ion-icon name="key-sharp"></ion-icon>
+						</span>
+						<input type="password" name="password" class="input" id="password" required>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="confirmpassword">Confirm Password</label>
+					<div class="input_item">
+						<span class="icon">
+							<ion-icon name="key-sharp"></ion-icon>
+						</span>
+						<input type="password" name="confirmpassword" class="input" id="confirmpassword" required>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="phone">Phone</label>
+					<div class="input_item">
+						<span class="icon">
+							<ion-icon name="call-sharp"></ion-icon>
+						</span>
+						<input type="number" name="phone" class="input" id="phone" required>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label>Gender</label>
+					<div class="input_radio">
+						<div class="input_radio_item">
+							<input type="radio" id="male" name="gender" class="radio" value="male" required>
+							<label for="male" class="radio_mark">
+								<ion-icon class="i" name="male-sharp"></ion-icon>
+							Male</label>
+						</div>
+						<div class="input_radio_item">
+							<input type="radio" id="female" name="gender" class="radio" value="female">
+							<label for="female" class="radio_mark">
+								<ion-icon class="i" name="female-sharp"></ion-icon>
+								Female</label>
+						</div>
+						<div class="input_radio_item">
+							<input type="radio" id="others" name="gender" class="radio" value="others">
+							<label for="others" class="radio_mark">
+								<ion-icon class="i" name="male-female-sharp"></ion-icon>
+								Others</label>
+						</div>
+					</div>
+				</div>
+                
+                <div class="input_wrap">
+                    <label for="dob">DOB</label>
+                    <div class="input_item">
+                        <input type="date" name="dob" class="input" id="dob" required>
+                    </div>
+                </div>
+                
+                <div class="input_wrap">
+                    <label for="bank_account">Bank Account Number</label>
+                    <div class="input_item">
+                        <input type="text" name="bank_account" class="input" id="bank_account" required>
+                    </div>
+                </div>
+                
+                <div class="input_wrap">
+                    <label for="ifsc">IFSC Code</label>
+                    <div class="input_item">
+                        <input type="text" name="ifsc" class="input" id="ifsc" required>
+                    </div>
+                </div>
+                
+                <div class="input_wrap">
+                    <label for="doj">Date of Joining</label>
+                    <div class="input_item">
+                        <input type="date" name="doj" class="input" id="doj" required>
+                    </div>
+                </div>
+				<div class="input_wrap">
+                    <label for="depid">Department ID</label>
+                    <div class="input_item">
+                        <input type="text" name="depid" class="input" id="depid" required>
+                    </div>
+                </div>
+				<div class="input_wrap">
+                    <label for="desg">Designation</label>
+                    <div class="input_item">
+                        <input type="text" name="Designation" class="input" id="Designation" required>
+                    </div>
+                </div>
+
+				<button type="submit" name="submit" class="stylebt">Register Now</button>
+
+			</form>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Project</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+    
+    <section class="attendance-section">
+        <div class="container">
+            <h2 class="sub-title">ADD PROJECT</h2>
+            <form action="prjct_add.php" method="post">
+                <label for="p_name">Project Name</label>
+                <input type="text" id="p_name" name="p_name" placeholder="Enter Project Name" required>
+                <label for="p_name">start Date</label>
+                <input type="date" name="start_date" class="input" id="dob" required>
+                <label for="p_name">End Date</label>
+                <input type="date" name="end_date" class="input" id="dob" required>
+                <label for="buget">Budget</label>
+                <input type="text" id="buget" name="budget" placeholder="Enter Budget" required>
+                <label for="dept_id">Department ID</label>
+                <select id="dept_id" name="dept_id" required>
+                        <option value="" disabled selected>Select Department id</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        
+                </select>
+
+
+
+
+                <button type="submit" name="submit" class="btn ">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    </body>
+
+</html>

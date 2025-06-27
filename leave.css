@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.container {
+    padding: 20px 10%;
+}
+
+.attendance-section {
+    padding: 80px 10%;
+    color: #ababab;
+}
+
+.sub-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #FFD700;
+    display: block;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+form select {
+    cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    background: #FFD700;
+    color: black;
+    font-weight: bold;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn.btn2:hover {
+    background: #ffc600;
+}
+
+
+
+.popup{
+	width:400px;
+	background: black;
+	border-radius: 6px;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,-50%)scale(0.1);
+	text-align: center;
+    padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition :transform 0.4s,top 0.4s;
+}
+
+
+.popup p{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+	color: white;
+}
+.popup button{
+	width:100%;
+	margin-top:50px;
+	padding:10px 0;
+	background:#FFD700;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.open-popup{
+	visibility: visible;
+	top:40%;
+	transform: translate(-50%,-50%)scale(1);
+}
+
+

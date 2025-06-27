@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF_8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>employee management</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30b83ee514.js" crossorigin="anonymous"></script>
+   
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+
+
+        <nav>
+            <h1 class="asma_name">Nexlore.</h1>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="department.html">Department</a></li>
+                <li><a href="prjct_dashbord.php">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+       
+        <div class="header-text">
+
+            <p>Hi, </p>
+            <h1 > <span>Nexlore </span> is a forward-thinking IT solutions company specializing in digital transformation, AI, and cloud services</h1>
+            <h5 id="helo">Welcome to My Portfolio</h5>
+
+        </div>
+
+        </div>
+
+    </div>
+
+<!------------about------------>
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/company.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About us</h1>
+                    <p class="hi">Nexlore is an innovative IT solutions company committed to exploring the next frontier of technology. Specializing in digital transformation, cloud computing, and artificial intelligence, Nexlore empowers businesses to redefine their potential and achieve seamless integration in a rapidly evolving digital landscape. With a core belief in unlocking possibilities through data-driven insights and advanced technologies, Nexlore partners with clients to streamline processes, enhance security, and create intelligent solutions that drive growth.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">achievements</p>
+                      
+                       
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                              <span>Award-Winning AI Solutions</span><br>Recognized for developing AI-driven software that optimizes operations and enhances customer engagement for global enterprises.  
+                            </li>
+                            <li>
+                                <span>Cloud Integration Excellence</span><br>Successfully migrated over 500 businesses to secure, scalable cloud environments, reducing operational costs by an average of 30%. 
+                            </li>
+                            <li>
+                                <span>Data Security Leadership</span><br>Achieved industry-leading certifications in cybersecurity, maintaining a spotless record with zero data breaches across all client projects.
+                            </li>
+                            <li>
+                                <span>Pioneering Digital Transformation</span><br>Supported Fortune 500 companies in digital transformation, improving their process efficiency by up to 50% through innovative automation solutions.
+                            </li>
+                        </ul>
+                    </div>
+                   
+                  
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-----------------Hobbies--------------------------->
+
+    <div id="Portfolio">
+
+        <div class="container">
+
+            <h1 class="sub-title"> INFRASTRUCTURE</h1>
+            <div class="work-list">
+                <div class="work">
+
+                    <img src="images/company2.jpg">
+                    <div class="layer">
+                        
+                        <p>Nexlore operates from a modern 50,000-square-foot facility designed to foster innovation and collaboration. The building features state-of-the-art conference rooms, dedicated R&D labs, and a fully-equipped IT infrastructure to support high-demand projects. Employees benefit from open workspaces, a tech lounge, and wellness areas, creating an environment that prioritizes both productivity and employee well-being. </p>
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="images/company3.jpeg">
+
+                    <div class="layer">
+
+                    
+                    <p>Nexlore’s workspace is thoughtfully designed to inspire creativity and collaboration. The open layout encourages team interaction, while dedicated quiet zones provide spaces for focused work. Equipped with ergonomic furniture and advanced technology, each workstation promotes comfort and productivity..</p>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="work">
+
+                    <img src="images/company4.jpg">
+
+                    <div class="layer">
+                      
+                        <p>At Nexlore, our people are our greatest asset. We pride ourselves on building a diverse team of talented professionals from various backgrounds, each bringing unique perspectives and expertise to the table. Our culture emphasizes collaboration, continuous learning, and innovation, empowering employees to thrive in their roles..</p>
+                       
+    
+                        </div>
+
+             
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!----------contact----------->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact US</h1>
+                    <p><i class="fa-solid fa-share"></i>nexlore@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6754231456</p>
+
+
+                  
+
+                </div>
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>Thank you for visiting !</p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
